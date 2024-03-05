@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7f7785;
+}
+
+header {
+    background-color: #545064;
+    color: #f0e8ed;
+    text-align: right;
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    position: absolute;
+    margin-left: 186px;
+    margin-bottom: 100px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    background-color: #f0e8ed;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 10px;
+}
+
+.menu h2, .order h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#clear-order {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.payment-button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.information-button {
+    font-family: 'Arial Black', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 17px;
+    border: black;
+    background-color: #7f7785;
+    color: black;
+}
